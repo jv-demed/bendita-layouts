@@ -7,7 +7,6 @@ const Globals = createGlobalStyle`
         padding: 0;
     }
     body{
-        border: 3px solid red;
         height: 100vh;
     }
 `
