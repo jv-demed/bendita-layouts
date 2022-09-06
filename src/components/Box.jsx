@@ -5,6 +5,7 @@ const BoxStyled = styled.div`
     background-color: #331138;
     color: white;
     display: flex;
+    font-family: 'Source Sans Pro', sans-serif;
     justify-content: center;
     padding: 10px;
 `

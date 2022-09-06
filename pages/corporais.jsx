@@ -1,4 +1,3 @@
-import { Fragment } from 'react'
 import styled from 'styled-components';
 import { Tab } from '@headlessui/react'
 import Box from '../src/components/Box';
@@ -8,6 +7,7 @@ const CorporaisStyled = styled.section`
     background-color: #471e4e;
     display: flex;
     flex-direction: column;
+    font-family: 'Source Sans Pro', sans-serif;
     height: 100vh;
     padding-top: 5%;
     width: 100%;
@@ -15,7 +15,7 @@ const CorporaisStyled = styled.section`
         display: flex;
         gap: 10px;
         justify-content: space-between;
-        padding: 5px 20%;
+        padding: 5px 16%;
         width: 100%;
         .tab{
             background-color: #331138;
@@ -27,7 +27,7 @@ const CorporaisStyled = styled.section`
         background-color: white;
         border: 1px solid red;
         display: flex;
-        margin: 10px 20%;
+        margin: 10px 16%;
     }
 `
 
