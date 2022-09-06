@@ -1,3 +1,4 @@
+import { Fragment } from 'react'
 import styled from 'styled-components';
 import { Tab } from '@headlessui/react'
 import Box from '../src/components/Box';
@@ -8,32 +9,59 @@ const CorporaisStyled = styled.section`
     display: flex;
     flex-direction: column;
     height: 100vh;
+    padding-top: 5%;
     width: 100%;
+    .tabList{
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+        padding: 5px 20%;
+        width: 100%;
+        .tab{
+            background-color: #331138;
+            border: none;
+            width: 100%;
+        }
+    }
+    .tabPanels{
+        background-color: white;
+        border: 1px solid red;
+        display: flex;
+        margin: 10px 20%;
+    }
 `
 
 export default function Corporais(){
     return(
         <CorporaisStyled>
             <Tab.Group>
-                <Tab.List>
-                    <Tab>
+                <Tab.List className={'tabList'}>
+                    <Tab className={'tab'} >
                         <Box title={'Celulite'} />
                     </Tab>
-                    <Tab>
+                    <Tab className={'tab'}>
                         <Box title={'Estrias'} />
                     </Tab>
-                    <Tab>
+                    <Tab className={'tab'}>
                         <Box title={'Flacidez'} />
                     </Tab>
-                    <Tab>
+                    <Tab className={'tab'}>
                         <Box title={'Gordura Localizada'} />
                     </Tab>
                 </Tab.List>
-                <Tab.Panels>
-                    <Tab.Panel>Content 1</Tab.Panel>
-                    <Tab.Panel>Content 2</Tab.Panel>
-                    <Tab.Panel>Content 3</Tab.Panel>
-                    <Tab.Panel>Content 4</Tab.Panel>
+                <Tab.Panels className='tabPanels'>
+                    <Tab.Panel>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur cupiditate aliquam maxime praesentium soluta error qui vero, pariatur quasi dolorum. Quae, iure eligendi. Commodi quasi voluptatum voluptate fugiat exercitationem ipsa!
+                    </Tab.Panel>
+                    <Tab.Panel>
+                        dsdasjdkajdkslaajkl
+                    </Tab.Panel>
+                    <Tab.Panel>
+                        Content 3
+                    </Tab.Panel>
+                    <Tab.Panel>
+                        Content 4
+                    </Tab.Panel>
                 </Tab.Panels>
             </Tab.Group>
         </CorporaisStyled>
