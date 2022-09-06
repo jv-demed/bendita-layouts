@@ -1,5 +1,5 @@
 {
-  "name": "bendita-procedimentos-corporais",
+  "name": "bendita-layouts",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,12 +9,21 @@
     "build": "next build",
     "start": "next start"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jv-demed/bendita-layouts.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jv-demed/bendita-layouts/issues"
+  },
+  "homepage": "https://github.com/jv-demed/bendita-layouts#readme",
   "dependencies": {
     "next": "^12.2.5",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^5.3.5"
   }
 }
