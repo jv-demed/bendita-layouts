@@ -6,9 +6,9 @@ const Globals = createGlobalStyle`
         margin: 0;
         padding: 0;
     }
-    body{
+    /* body{
         height: 100vh;
-    }
+    } */
 `
 
 export default Globals;

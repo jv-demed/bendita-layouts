@@ -8,7 +8,8 @@ const CorporaisStyled = styled.section`
     display: flex;
     flex-direction: column;
     font-family: 'Source Sans Pro', sans-serif;
-    height: 100vh;
+    /* height: 100vh; */
+    padding-bottom: 5%;
     padding-top: 5%;
     width: 100%;
     .tabList{
