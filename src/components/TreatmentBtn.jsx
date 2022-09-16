@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const BoxStyled = styled.div`
+const TreatmentBtnStyled = styled.div`
     align-items: center;
     background-color: #331138;
     color: white;
@@ -10,10 +10,10 @@ const BoxStyled = styled.div`
     padding: 10px;
 `
 
-export default function Box({title}){
+export default function TreatmentBtn({title}){
     return(
-        <BoxStyled>
+        <TreatmentBtnStyled>
             <span>{title}</span>
-        </BoxStyled>
+        </TreatmentBtnStyled>
     )
 }
