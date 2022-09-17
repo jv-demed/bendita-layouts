@@ -5,8 +5,7 @@ const ProtocolBoxStyled = styled.div`
     display: flex;
     color: white;
     flex-direction: column;
-    //height: 100px;  
-    width: 120px;
+    width: 90%;
     img{
         width: 100%;
     }
@@ -14,8 +13,9 @@ const ProtocolBoxStyled = styled.div`
         display: flex;
         flex-direction: column;
         font-size: 0.9rem;
+        gap: 8px;
         justify-content: space-between;
-        padding: 2px 5px;
+        padding: 12px 8px;
         word-break: break-all;
         a{
             color: white;

@@ -8,12 +8,15 @@ const TreatmentBtnStyled = styled.div`
     font-family: 'Source Sans Pro', sans-serif;
     justify-content: center;
     padding: 10px;
+    .select{
+        border: 1px solid white;
+    }
 `
 
-export default function TreatmentBtn({title}){
+export default function TreatmentBtn({tratamento, setTratamentoAtivo}){
     return(
-        <TreatmentBtnStyled>
-            <span>{title}</span>
+        <TreatmentBtnStyled onClick={() => setTratamentoAtivo(tratamento)}>
+            <span>{tratamento.nome}</span>
         </TreatmentBtnStyled>
     )
 }
