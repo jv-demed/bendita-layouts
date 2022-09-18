@@ -69,7 +69,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Radiofrequência',
-                img: ''
+                img: 'https://i.imgur.com/b11ugpj.png'
             },
         ]
     },{
@@ -77,7 +77,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Protocolo Afrodite',
-                img: ''
+                img: 'https://i.imgur.com/9yWmabd.jpg'
             },
         ]
     },{
@@ -85,13 +85,13 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Enzima',
-                img: ''
+                img: 'https://i.imgur.com/deUVaHv.jpg'
             },{
                 nome: 'Radiofrequência',
-                img: ''
+                img: 'https://i.imgur.com/b11ugpj.png'
             },{
                 nome: 'STRILL - Dermovácuo',
-                img: ''
+                img: 'https://i.imgur.com/OpgX7sU.jpg'
             },
         ]
     },{
@@ -99,7 +99,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Endermoterapia',
-                img: ''
+                img: 'https://i.imgur.com/44OBwJ7.png'
             },
         ]
     },{
@@ -107,25 +107,25 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Barriga Perfeita',
-                img: ''
+                img: 'https://i.imgur.com/2mfvDPa.jpg'
             },{
                 nome: 'Bye Bye Flacidez',
-                img: ''
+                img: 'https://i.imgur.com/LvCJgDZ.jpg'
             },{
                 nome: 'Enzima',
-                img: ''
+                img: 'https://i.imgur.com/deUVaHv.jpg'
             },{
                 nome: 'Gluteomax',
-                img: ''
+                img: 'https://i.imgur.com/mqi4Upd.jpg'
             },{
                 nome: 'Radiofrequência',
-                img: ''
+                img: 'https://i.imgur.com/b11ugpj.png'
             },{
                 nome: 'Shockfrequência',
-                img: ''
+                img: 'https://i.imgur.com/x2xLBTQ.jpg'
             },{
                 nome: 'Ultrafrequência',
-                img: ''
+                img: 'https://i.imgur.com/cHAH9mK.jpg'
             },
         ]
     },{
@@ -133,37 +133,37 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Barriga Perfeita',
-                img: ''
+                img: 'https://i.imgur.com/2mfvDPa.jpg'
             },{
                 nome: 'Criofrequência',
-                img: ''
+                img: 'https://i.imgur.com/aS7rjrl.png'
             },{
                 nome: 'Eletrolipólise',
-                img: ''
+                img: 'https://i.imgur.com/m1tN9Uj.jpg'
             },{
                 nome: 'Endermoterapia',
-                img: ''
+                img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Enzima',
-                img: ''
+                img: 'https://i.imgur.com/deUVaHv.jpg'
             },{
                 nome: 'Hidrolipo',
-                img: ''
+                img: 'https://i.imgur.com/IlApzD2.jpg'
             },{
                 nome: 'Lipocavitação',
-                img: ''
+                img: 'https://i.imgur.com/suYOcZY.png'
             },{
                 nome: 'Manta Térmica',
-                img: ''
+                img: 'https://i.imgur.com/wmyNkKF.png'
             },{
                 nome: 'Radiofrequência',
-                img: ''
+                img: 'https://i.imgur.com/b11ugpj.png'
             },{
                 nome: 'Shockfrequência',
-                img: ''
+                img: 'https://i.imgur.com/x2xLBTQ.jpg'
             },{
                 nome: 'Ultrafrequência',
-                img: ''
+                img: 'https://i.imgur.com/cHAH9mK.jpg'
             },
         ]
     },{
@@ -171,7 +171,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Pump Up',
-                img: ''
+                img: 'https://i.imgur.com/q71x9AU.jpg'
             },
         ]
     },{
@@ -179,25 +179,25 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Bambuterapia',
-                img: ''
+                img: 'https://i.imgur.com/3MwlqBz.jpg'
             },{
                 nome: 'Drenagem Linfática',
-                img: ''
+                img: 'https://i.imgur.com/rSwz45c.jpg'
             },{
                 nome: 'Modeladora',
-                img: ''
+                img: 'https://i.imgur.com/qxzMbGa.jpg'
             },{
                 nome: 'Pedras Quentes',
-                img: ''
+                img: 'https://i.imgur.com/f2IeRlo.jpg'
             },{
                 nome: 'Pós Operatório',
-                img: ''
+                img: 'https://i.imgur.com/rSwz45c.jpg'
             },{
                 nome: 'Relaxante',
-                img: ''
+                img: 'https://i.imgur.com/PATbLQH.jpg'
             },{
                 nome: 'Terapêutica',
-                img: ''
+                img: 'https://i.imgur.com/sNeBZi8.jpg'
             },
         ]
     },{
@@ -205,7 +205,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Escleroterapia',
-                img: ''
+                img: 'https://i.imgur.com/Dz79iES.png'
             },
         ]
     },{
@@ -213,13 +213,13 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Eletroestimulação',
-                img: ''
+                img: 'https://i.imgur.com/L2ax3OP.png'
             },{
                 nome: 'Endermoterapia',
-                img: ''
+                img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Manta Térmica',
-                img: ''
+                img: 'https://i.imgur.com/wmyNkKF.png'
             },
         ]
     },
