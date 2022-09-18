@@ -5,7 +5,7 @@ import TreatmentCarousel from '../src/components/TreatmentCarousel';
 import { corporais } from '../src/data/tratamentos';
 
 const CorporaisStyled = styled.section`
-    background-color: #471e4e;
+    background-image: linear-gradient(to bottom, #471e4e, #35173b);
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
