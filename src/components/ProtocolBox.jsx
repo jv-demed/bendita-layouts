@@ -22,6 +22,21 @@ const ProtocolBoxStyled = styled.div`
             font-size: 0.7rem;
         }
     }
+    :hover{
+        overflow: hidden;
+    }
+    :hover img{
+        scale: 110%;
+    }
+    @media(max-width: 650px){
+        width: 80%;
+        .txt{
+            font-size: 1.2rem;
+            a{
+                font-size: 1rem;
+            }
+        }
+    }
 `
 
 export default function ProtocolBox({title}){

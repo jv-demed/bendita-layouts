@@ -1,6 +1,8 @@
 import { useState } from 'react';
+import { useMedia } from 'use-media';
 import styled from 'styled-components';
 import TreatmentBtn from '../src/components/TreatmentBtn';
+import TreatmentBtnMobile from '../src/components/TreatmentBtnMobile';
 import TreatmentCarousel from '../src/components/TreatmentCarousel';
 import { corporais } from '../src/data/tratamentos';
 
@@ -9,47 +11,61 @@ const CorporaisStyled = styled.section`
     display: flex;
     flex-direction: column;
     font-family: 'Montserrat', sans-serif;
-    height: 100vh;
+    max-height: 100vh;
+    min-height: 100vh;
+    padding: 4% 16%;
     padding-bottom: 5%;
     width: 100%;
     h1{
         color: white;
         font-size: 1.8rem;
-        padding: 4% 16% 2%;
     }
     .btns{
         cursor: pointer;
         display: flex;
         gap: 8px;
         flex-wrap: wrap;
-        padding: 5px 16%;
+        margin-top: 4%;
         width: 100%;
     }
     .selected{
         border: 1px solid white;
     }
+    @media(max-width: 650px){
+        padding: 4% 4%;
+    }
 `
 
 export default function Corporais(){
 
+    const isMobile = useMedia({ maxWidth: 650 });
     const [tratamentoAtivo, setTratamentoAtivo] = useState(corporais[0])
 
     return(
         <CorporaisStyled>
             <h1>Tratamentos</h1>
-            <div className={'btns'}>
-                {corporais.map((tratamento) => {
-                    return(
-                        <div className={tratamentoAtivo == tratamento ? 'selected' : ''}>
-                            <TreatmentBtn 
+            {/* {isMobile ?
+                <TreatmentBtnMobile 
+                    tratamentos={corporais}
+                    setTratamentoAtivo={setTratamentoAtivo} 
+                />
+                : */}
+                <div className={'btns'}>
+                    {corporais.map((tratamento) => {
+                        return(
+                            <div 
                                 key={tratamento.nome}
-                                tratamento={tratamento} 
-                                setTratamentoAtivo={setTratamentoAtivo}
-                            />
-                        </div>
-                    )
-                })}
-            </div>
+                                className={tratamentoAtivo == tratamento ? 'selected' : ''}
+                            >
+                                <TreatmentBtn 
+                                    tratamento={tratamento} 
+                                    setTratamentoAtivo={setTratamentoAtivo}
+                                />
+                            </div>
+                        )
+                    })}
+                </div>
+            {/* } */}
             <TreatmentCarousel tratamento={tratamentoAtivo} />
         </CorporaisStyled>
     )

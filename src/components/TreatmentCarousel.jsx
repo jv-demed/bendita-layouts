@@ -1,13 +1,16 @@
+import { useMedia } from 'use-media';
 import styled from 'styled-components';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import ProtocolBox from './ProtocolBox';
 
 const TreatmentCarouselStyled = styled.div`
-    padding: 40px 16%;
+    margin-top: 6%;
 `
 
 export default function TreatmentCarousel({tratamento}){
+
+    const isMobile = useMedia({ maxWidth: 650 });
 
     const responsive = {
         desktop: {
@@ -27,6 +30,7 @@ export default function TreatmentCarousel({tratamento}){
     return(
         <TreatmentCarouselStyled>
             <Carousel
+                centerMode={isMobile ? true : false}
                 infinite={true}
                 removeArrowOnDeviceType={'mobile'}
                 responsive={responsive}
