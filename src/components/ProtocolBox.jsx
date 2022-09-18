@@ -29,7 +29,6 @@ const ProtocolBoxStyled = styled.div`
         scale: 110%;
     }
     @media(max-width: 650px){
-        width: 80%;
         .txt{
             font-size: 1.2rem;
             a{

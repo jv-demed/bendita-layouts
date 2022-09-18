@@ -6,6 +6,9 @@ import ProtocolBox from './ProtocolBox';
 
 const TreatmentCarouselStyled = styled.div`
     margin-top: 6%;
+    @media(max-width: 650px){
+        margin-top: 12%;
+    }
 `
 
 export default function TreatmentCarousel({tratamento}){

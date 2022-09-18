@@ -32,7 +32,10 @@ const CorporaisStyled = styled.section`
         border: 1px solid white;
     }
     @media(max-width: 650px){
-        padding: 4% 4%;
+        padding: 8% 4%;
+        .btns{
+            padding-top: 8%;
+        }
     }
 `
 
