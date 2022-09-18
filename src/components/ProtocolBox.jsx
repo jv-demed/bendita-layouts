@@ -12,14 +12,14 @@ const ProtocolBoxStyled = styled.div`
     .txt{
         display: flex;
         flex-direction: column;
-        font-size: 0.9rem;
+        font-size: 1.1rem;
         gap: 8px;
         justify-content: space-between;
         padding: 12px 8px;
         word-break: break-all;
         a{
             color: white;
-            font-size: 0.7rem;
+            font-size: 0.9rem;
         }
     }
     :hover{
@@ -30,9 +30,9 @@ const ProtocolBoxStyled = styled.div`
     }
     @media(max-width: 650px){
         .txt{
-            font-size: 1.2rem;
+            font-size: 1.3rem;
             a{
-                font-size: 1rem;
+                font-size: 1.1rem;
             }
         }
     }
