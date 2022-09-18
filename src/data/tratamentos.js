@@ -167,7 +167,7 @@ export const corporais = [
             },
         ]
     },{
-        nome: 'Hamonização de Glúteos',
+        nome: 'Harmonização de Glúteos',
         protocolos: [
             {
                 nome: 'Pump Up',
