@@ -40,7 +40,7 @@ export default function TreatmentCarousel({tratamento}){
             >
                 {tratamento.protocolos.map((protocolo) => {
                     return(
-                        <ProtocolBox key={`box-${protocolo.nome}`} title={protocolo.nome} />
+                        <ProtocolBox key={`box-${protocolo.nome}`} protocolo={protocolo} />
                     )
                 })}
             </Carousel>

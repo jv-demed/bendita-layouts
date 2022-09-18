@@ -1,13 +1,15 @@
+const whatsappLink = 'https://wa.me/5551992004396?'
+
 export const corporais = [
     {
         nome: 'Aumento de Bumbum',
         protocolos: [
             {
                 nome: 'Gluteomax',
-                img: ''
+                img: 'https://i.imgur.com/mqi4Upd.jpg'
             },{
                 nome: 'Pump Up',
-                img: ''
+                img: 'https://i.imgur.com/q71x9AU.jpg'
             },
         ]
     },{
@@ -15,28 +17,28 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Bye Bye Celulite',
-                img: ''
+                img: 'https://i.imgur.com/3t7DYtk.png'
             },{
                 nome: 'Celulite Zero',
-                img: ''
+                img: 'https://i.imgur.com/Q1Rw0IW.png'
             },{
                 nome: 'Endermoterapia',
-                img: ''
+                img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Enzima',
-                img: ''
+                img: 'https://i.imgur.com/deUVaHv.jpg'
             },{
                 nome: 'Lipocavitação',
-                img: ''
+                img: 'https://i.imgur.com/suYOcZY.png'
             },{
                 nome: 'Power Fit',
-                img: ''
+                img: 'https://i.imgur.com/QigU5ON.jpg'
             },{
                 nome: 'Radiofrequência',
-                img: ''
+                img: 'https://i.imgur.com/b11ugpj.png'
             },{
-                nome: 'Subcission',
-                img: ''
+                nome: 'Subcision',
+                img: 'https://i.imgur.com/G2pS8I5.jpg'
             }
         ]
     },{
@@ -44,22 +46,22 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Barriga Perfeita',
-                img: ''
+                img: 'https://i.imgur.com/2mfvDPa.jpg'
             },{
                 nome: 'Criofrequência',
-                img: ''
+                img: 'https://i.imgur.com/aS7rjrl.png'
             },{
                 nome: 'Eletroestimulação',
-                img: ''
+                img: 'https://i.imgur.com/L2ax3OP.png'
             },{
                 nome: 'Endermoterapia',
-                img: ''
+                img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Gluteomax',
-                img: ''
+                img: 'https://i.imgur.com/mqi4Upd.jpg'
             },{
                 nome: 'Ultrafrequência',
-                img: ''
+                img: 'https://i.imgur.com/cHAH9mK.jpg'
             },
         ]
     },{

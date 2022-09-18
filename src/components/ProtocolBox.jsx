@@ -38,13 +38,18 @@ const ProtocolBoxStyled = styled.div`
     }
 `
 
-export default function ProtocolBox({title}){
+export default function ProtocolBox({protocolo}){
     return(
         <ProtocolBoxStyled>
-            <img src="https://i.imgur.com/2mfvDPa.jpg" />
+            <img src={protocolo.img} />
             <div className='txt'>
-                <span>{title}</span>
-                <a href="#">Veja mais!</a>
+                <span>{protocolo.nome}</span>
+                <a 
+                    href={`https://wa.me/5551992004396?text=Saber%20mais%20sobre%20${protocolo.nome}`} 
+                    target='_blanc'
+                >
+                    Veja mais!
+                </a>
             </div>
         </ProtocolBoxStyled>
     )
