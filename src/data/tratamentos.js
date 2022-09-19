@@ -1,5 +1,3 @@
-const whatsappLink = 'https://wa.me/5551992004396?'
-
 export const corporais = [
     {
         nome: 'Aumento de Bumbum',
@@ -220,6 +218,195 @@ export const corporais = [
             },{
                 nome: 'Manta Térmica',
                 img: 'https://i.imgur.com/wmyNkKF.png'
+            },
+        ]
+    },
+]
+
+export const faciais = [
+    {
+        nome: 'ACNE',
+        protocolos: [
+            {
+                nome: 'Limpeza de Pele',
+                img: 'https://i.imgur.com/mW2unFT.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },
+        ]
+    },{
+        nome: 'Cicatrizes de ACNE',
+        protocolos: [
+            {
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },
+        ]
+    },{
+        nome: 'Flacidez',
+        protocolos: [
+            {
+                nome: 'Enzimas',
+                img: 'https://i.imgur.com/EanbvGQ.jpg'
+            },{
+                nome: 'Jato de Plasma',
+                img: 'https://i.imgur.com/7TdQXvc.jpg'
+            },{
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Radiofrequência',
+                img: 'https://i.imgur.com/gxNCyJl.jpg'
+            },{
+                nome: 'Skinbooster',
+                img: 'https://i.imgur.com/UisvDPU.jpg'
+            }
+        ]
+    },{
+        nome: 'Gordura Localizada',
+        protocolos: [
+            {
+                nome: 'Lipo de Papada',
+                img: 'https://i.imgur.com/lN4IRLG.png'
+            },{
+                nome: 'Radiofrequência',
+                img: 'https://i.imgur.com/gxNCyJl.jpg'
+            },
+        ]
+    },{
+        nome: 'Manchas',
+        protocolos: [
+            {
+                nome: 'Limpeza de Pele',
+                img: 'https://i.imgur.com/mW2unFT.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },
+        ]
+    },{
+        nome: 'Micro Vasos',
+        protocolos: [
+            {
+                nome: 'LIP (Luz Intensa Pulsada)',
+                img: 'https://i.imgur.com/tpMG8nS.jpg'
+            },
+        ]
+    },{
+        nome: 'Papada',
+        protocolos: [
+            {
+                nome: 'Enzimas',
+                img: 'https://i.imgur.com/EanbvGQ.jpg'
+            },
+        ]
+    },{
+        nome: 'Poros Abertos',
+        protocolos: [
+            {
+                nome: 'Limpeza de Pele',
+                img: 'https://i.imgur.com/mW2unFT.jpg'
+            },{
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },
+        ]
+    },{
+        nome: 'Rejuvenescimento',
+        protocolos: [
+            {
+                nome: 'Jato de Plasma',
+                img: 'https://i.imgur.com/7TdQXvc.jpg'
+            },{
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },{
+                nome: 'Radiofrequência',
+                img: 'https://i.imgur.com/gxNCyJl.jpg'
+            },{
+                nome: 'Skinbooster',
+                img: 'https://i.imgur.com/UisvDPU.jpg'
+            },
+        ]
+    },{
+        nome: 'Ressecamento',
+        protocolos: [
+            {
+                nome: 'Hidra Lips',
+                img: 'https://i.imgur.com/S1lZ9mN.jpg'
+            },{
+                nome: 'Skinbooster',
+                img: 'https://i.imgur.com/UisvDPU.jpg'
+            },
+        ]
+    },{
+        nome: 'Rosáceas',
+        protocolos: [
+            {
+                nome: 'LIP (Luz Intensa Pulsada)',
+                img: 'https://i.imgur.com/tpMG8nS.jpg'
+            },{
+                nome: 'Peeling Químico',
+                img: 'https://i.imgur.com/q6XhjQA.jpg'
+            },
+        ]
+    },{
+        nome: 'Rugas Finas',
+        protocolos: [
+            {
+                nome: 'Jato de Plasma',
+                img: 'https://i.imgur.com/7TdQXvc.jpg'
+            },{
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Skinbooster',
+                img: 'https://i.imgur.com/UisvDPU.jpg'
+            }
+        ]
+    },{
+        nome: 'Rugas Profundas',
+        protocolos: [
+            {
+                nome: 'Jato de Plasma',
+                img: 'https://i.imgur.com/7TdQXvc.jpg'
+            },{
+                nome: 'Microagulhamento',
+                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
+            },{
+                nome: 'Peeling de Diamante',
+                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+            },{
+                nome: 'Skinbooster',
+                img: 'https://i.imgur.com/UisvDPU.jpg'
             },
         ]
     },
