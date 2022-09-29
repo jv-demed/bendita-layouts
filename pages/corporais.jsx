@@ -42,7 +42,7 @@ export default function Corporais(){
     const [tratamentoAtivo, setTratamentoAtivo] = useState(corporais[0])
 
     return(
-        <CorporaisStyled>
+        <CorporaisStyled id='tratamentos-corporais'>
             <h1>Tratamentos</h1>
             <div className={'btns'}>
                 {corporais.map((tratamento) => {

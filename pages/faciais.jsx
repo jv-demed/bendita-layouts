@@ -2,9 +2,9 @@ import { useState } from 'react';
 import styled from 'styled-components';
 import TreatmentBtn from '../src/components/TreatmentBtn';
 import TreatmentCarousel from '../src/components/TreatmentCarousel';
-import { corporais, faciais } from '../src/data/tratamentos';
+import { faciais } from '../src/data/tratamentos';
 
-const CorporaisStyled = styled.section`
+const FaciaisStyled = styled.section`
     background-image: linear-gradient(to bottom, #471e4e, #35173b);
     display: flex;
     flex-direction: column;
@@ -42,7 +42,7 @@ export default function Corporais(){
     const [tratamentoAtivo, setTratamentoAtivo] = useState(faciais[0])
 
     return(
-        <CorporaisStyled>
+        <FaciaisStyled id='tratamentos-faciais'>
             <h1>Tratamentos</h1>
             <div className={'btns'}>
                 {faciais.map((tratamento) => {
@@ -60,6 +60,6 @@ export default function Corporais(){
                 })}
             </div>
             <TreatmentCarousel tratamento={tratamentoAtivo} />
-        </CorporaisStyled>
+        </FaciaisStyled>
     )
 }
