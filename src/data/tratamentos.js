@@ -24,7 +24,7 @@ export const corporais = [
                 img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Enzima',
-                img: 'https://i.imgur.com/deUVaHv.jpg'
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Lipocavitação',
                 img: 'https://i.imgur.com/suYOcZY.png'
@@ -83,7 +83,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Enzima',
-                img: 'https://i.imgur.com/deUVaHv.jpg'
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Radiofrequência',
                 img: 'https://i.imgur.com/b11ugpj.png'
@@ -111,7 +111,7 @@ export const corporais = [
                 img: 'https://i.imgur.com/LvCJgDZ.jpg'
             },{
                 nome: 'Enzima',
-                img: 'https://i.imgur.com/deUVaHv.jpg'
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Gluteomax',
                 img: 'https://i.imgur.com/mqi4Upd.jpg'
@@ -143,7 +143,7 @@ export const corporais = [
                 img: 'https://i.imgur.com/44OBwJ7.png'
             },{
                 nome: 'Enzima',
-                img: 'https://i.imgur.com/deUVaHv.jpg'
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Hidrolipo',
                 img: 'https://i.imgur.com/IlApzD2.jpg'
