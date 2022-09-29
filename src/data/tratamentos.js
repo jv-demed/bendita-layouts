@@ -7,7 +7,7 @@ export const corporais = [
                 img: 'https://i.imgur.com/mqi4Upd.jpg'
             },{
                 nome: 'Pump Up',
-                img: 'https://i.imgur.com/q71x9AU.jpg'
+                img: 'https://i.imgur.com/hv4lMir.jpg'
             },
         ]
     },{
@@ -169,7 +169,7 @@ export const corporais = [
         protocolos: [
             {
                 nome: 'Pump Up',
-                img: 'https://i.imgur.com/q71x9AU.jpg'
+                img: 'https://i.imgur.com/hv4lMir.jpg'
             },
         ]
     },{
@@ -253,8 +253,8 @@ export const faciais = [
         nome: 'Flacidez',
         protocolos: [
             {
-                nome: 'Enzimas',
-                img: 'https://i.imgur.com/EanbvGQ.jpg'
+                nome: 'Enzima',
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Jato de Plasma',
                 img: 'https://i.imgur.com/7TdQXvc.jpg'
@@ -309,8 +309,8 @@ export const faciais = [
         nome: 'Papada',
         protocolos: [
             {
-                nome: 'Enzimas',
-                img: 'https://i.imgur.com/EanbvGQ.jpg'
+                nome: 'Enzima',
+                img: 'https://i.imgur.com/V4JgVb2.jpg'
             },
         ]
     },{
