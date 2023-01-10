@@ -363,7 +363,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/S1lZ9mN.jpg'
             },{
                 nome: 'Skinbooster',
-                img: semFoto
+                img: semFoto 
             },
         ]
     },{
