@@ -1,3 +1,5 @@
+const semFoto = 'https://i.imgur.com/aj4Dlgv.jpg';
+
 export const corporais = [
     {
         nome: 'Aumento de Bumbum',
@@ -243,7 +245,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Peeling Químico',
                 img: 'https://i.imgur.com/q6XhjQA.jpg'
@@ -257,19 +259,19 @@ export const faciais = [
                 img: 'https://i.imgur.com/V4JgVb2.jpg'
             },{
                 nome: 'Jato de Plasma',
-                img: 'https://i.imgur.com/7TdQXvc.jpg'
+                img: semFoto
             },{
                 nome: 'Microagulhamento',
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Radiofrequência',
                 img: 'https://i.imgur.com/gxNCyJl.jpg'
             },{
                 nome: 'Skinbooster',
-                img: 'https://i.imgur.com/UisvDPU.jpg'
+                img: semFoto
             }
         ]
     },{
@@ -291,7 +293,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/mW2unFT.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Peeling Químico',
                 img: 'https://i.imgur.com/q6XhjQA.jpg'
@@ -324,7 +326,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Peeling Químico',
                 img: 'https://i.imgur.com/q6XhjQA.jpg'
@@ -335,13 +337,13 @@ export const faciais = [
         protocolos: [
             {
                 nome: 'Jato de Plasma',
-                img: 'https://i.imgur.com/7TdQXvc.jpg'
+                img: semFoto
             },{
                 nome: 'Microagulhamento',
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Peeling Químico',
                 img: 'https://i.imgur.com/q6XhjQA.jpg'
@@ -350,7 +352,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/gxNCyJl.jpg'
             },{
                 nome: 'Skinbooster',
-                img: 'https://i.imgur.com/UisvDPU.jpg'
+                img: semFoto
             },
         ]
     },{
@@ -361,7 +363,7 @@ export const faciais = [
                 img: 'https://i.imgur.com/S1lZ9mN.jpg'
             },{
                 nome: 'Skinbooster',
-                img: 'https://i.imgur.com/UisvDPU.jpg'
+                img: semFoto
             },
         ]
     },{
@@ -380,16 +382,16 @@ export const faciais = [
         protocolos: [
             {
                 nome: 'Jato de Plasma',
-                img: 'https://i.imgur.com/7TdQXvc.jpg'
+                img: semFoto
             },{
                 nome: 'Microagulhamento',
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Skinbooster',
-                img: 'https://i.imgur.com/UisvDPU.jpg'
+                img: semFoto
             }
         ]
     },{
@@ -397,16 +399,16 @@ export const faciais = [
         protocolos: [
             {
                 nome: 'Jato de Plasma',
-                img: 'https://i.imgur.com/7TdQXvc.jpg'
+                img: semFoto
             },{
                 nome: 'Microagulhamento',
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
                 nome: 'Peeling de Diamante',
-                img: 'https://i.imgur.com/MJt1Sfi.jpg'
+                img: semFoto
             },{
                 nome: 'Skinbooster',
-                img: 'https://i.imgur.com/UisvDPU.jpg'
+                img: semFoto
             },
         ]
     },
