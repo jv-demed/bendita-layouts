@@ -21,9 +21,9 @@
   },
   "homepage": "https://github.com/jv-demed/bendita-layouts#readme",
   "dependencies": {
-    "next": "^12.2.5",
-    "react-multi-carousel": "^2.8.2",
-    "styled-components": "^5.3.5",
-    "use-media": "^1.4.0"
+    "next": "12.2.5",
+    "react-multi-carousel": "2.8.2",
+    "styled-components": "5.3.5",
+    "use-media": "1.4.0"
   }
 }
