@@ -2,17 +2,6 @@ const semFoto = 'https://i.imgur.com/aj4Dlgv.jpg';
 
 export const corporais = [
     {
-        nome: 'Aumento de Bumbum',
-        protocolos: [
-            {
-                nome: 'Gluteomax',
-                img: 'https://i.imgur.com/mqi4Upd.jpg'
-            },{
-                nome: 'Pump Up',
-                img: 'https://i.imgur.com/hv4lMir.jpg'
-            },
-        ]
-    },{
         nome: 'Celulite',
         protocolos: [
             {
@@ -95,14 +84,6 @@ export const corporais = [
             },
         ]
     },{
-        nome: 'Fibrose',
-        protocolos: [
-            {
-                nome: 'Endermoterapia',
-                img: 'https://i.imgur.com/44OBwJ7.png'
-            },
-        ]
-    },{
         nome: 'Flacidez',
         protocolos: [
             {
@@ -126,6 +107,17 @@ export const corporais = [
             },{
                 nome: 'Ultrafrequência',
                 img: 'https://i.imgur.com/cHAH9mK.jpg'
+            },
+        ]
+    },{
+        nome: 'Glúteos',
+        protocolos: [
+            {
+                nome: 'Gluteomax',
+                img: 'https://i.imgur.com/mqi4Upd.jpg'
+            },{
+                nome: 'Pump Up',
+                img: 'https://i.imgur.com/hv4lMir.jpg'
             },
         ]
     },{
@@ -164,14 +156,6 @@ export const corporais = [
             },{
                 nome: 'Ultrafrequência',
                 img: 'https://i.imgur.com/cHAH9mK.jpg'
-            },
-        ]
-    },{
-        nome: 'Harmonização de Glúteos',
-        protocolos: [
-            {
-                nome: 'Pump Up',
-                img: 'https://i.imgur.com/hv4lMir.jpg'
             },
         ]
     },{
@@ -233,14 +217,6 @@ export const faciais = [
                 nome: 'Limpeza de Pele',
                 img: 'https://i.imgur.com/mW2unFT.jpg'
             },{
-                nome: 'Peeling Químico',
-                img: 'https://i.imgur.com/q6XhjQA.jpg'
-            },
-        ]
-    },{
-        nome: 'Cicatrizes de ACNE',
-        protocolos: [
-            {
                 nome: 'Microagulhamento',
                 img: 'https://i.imgur.com/ZxPB4Hi.jpg'
             },{
@@ -297,14 +273,6 @@ export const faciais = [
             },{
                 nome: 'Peeling Químico',
                 img: 'https://i.imgur.com/q6XhjQA.jpg'
-            },
-        ]
-    },{
-        nome: 'Micro Vasos',
-        protocolos: [
-            {
-                nome: 'LIP (Luz Intensa Pulsada)',
-                img: 'https://i.imgur.com/tpMG8nS.jpg'
             },
         ]
     },{
@@ -378,7 +346,7 @@ export const faciais = [
             },
         ]
     },{
-        nome: 'Rugas Finas',
+        nome: 'Rugas',
         protocolos: [
             {
                 nome: 'Jato de Plasma',
@@ -394,22 +362,5 @@ export const faciais = [
                 img: semFoto
             }
         ]
-    },{
-        nome: 'Rugas Profundas',
-        protocolos: [
-            {
-                nome: 'Jato de Plasma',
-                img: semFoto
-            },{
-                nome: 'Microagulhamento',
-                img: 'https://i.imgur.com/ZxPB4Hi.jpg'
-            },{
-                nome: 'Peeling de Diamante',
-                img: semFoto
-            },{
-                nome: 'Skinbooster',
-                img: semFoto
-            },
-        ]
-    },
+    }
 ]
