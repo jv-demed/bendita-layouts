@@ -1,6 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/react,nextjs
 # Edit at https://www.toptal.com/developers/gitignore?templates=react,nextjs
 
+/imgs
+
 ### NextJS ###
 # Dependencies
 /node_modules
